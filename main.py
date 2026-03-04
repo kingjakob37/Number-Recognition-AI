@@ -71,9 +71,9 @@ def main():
 
     #Below are possible functions that could be used to illustrate model performance.
 
-    training_tools.predict(Y_test, clf_image_amount, predicted)                                         #Display prediction statistics about the model.
-    training_tools.score(clf, X_test_scaled,Y_test,clf_image_amount)                                    #Display a score for the model with the given amount of clf images.
-    training_tools.display(X_test, predicted, display_image_amount, clf_image_amount, random_images=1)  #Display a certain amount of images, correlating to display_image_amount.
+    #training_tools.predict(Y_test, clf_image_amount, predicted)                                         #Display prediction statistics about the model.
+    #training_tools.score(clf, X_test_scaled,Y_test,clf_image_amount)                                    #Display a score for the model with the given amount of clf images.
+    #training_tools.display(X_test, predicted, display_image_amount, clf_image_amount, random_images=1)  #Display a certain amount of images, correlating to display_image_amount.
     training_tools.confusion_map(Y_test, predicted, clf)                                                #Display a confusion matrix heatmap to demonstrate accuracy.
 
     #training_tools.save_model(clf)     #This function allows the user to save the model if so desired.

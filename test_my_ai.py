@@ -9,7 +9,7 @@ from PIL import Image   #Used for image processesing.
 import joblib           #Used for importing the model.
 
 #Individual test PNG from TestImages.
-image_path = "TestImages/image0.png"
+image_path = "TestImages/image8.png"
 
 #Load the trained model.
 clf = joblib.load("number_recognition_model.pkl")
